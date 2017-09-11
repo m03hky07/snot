@@ -9,3 +9,4 @@
       host: '{{ inventory_hostname }}'
       commands:
       - show ip int br
+      - show logging last 100
